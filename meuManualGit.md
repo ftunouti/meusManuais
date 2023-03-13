@@ -1,13 +1,27 @@
-MANUAL GIT E GITHUB
-
+# Meu MANUAL GIT E GITHUB
 by Fernando Tunouti
--
+
+---
+
+RESUMO DOS CÓDIGOS
+
+* git init  ///inicia o versionamento de uma pasta específica
+* git add ///adiciona um arquivo em 'Stage'
+* git commit -m "---algum comentário" ///Salva o arquivo ficando pronto para envio para o GITHUB
+* git remote add origin git@github.com:seuusuario/seurepositorio) ///faz a conexação do repositório local para o repositório do GITHUB
+* git push -u origin main ///envia arquivos commitados para o gitHUB no branch main
+	
+
+	
+* git status            ///verifica o status dos arquivos git
+* git branch -M main    ///nomeia como main o branch principal
+
 
 Para iniciar o versionamento de um projeto com o GIT siga a os passoas a seguir:
--
+
 
 1. CRIAR A PASTA DO PROJETO 
-			EX: /HOME/FTUNOUTI/CODIGOS/NOVO_PROJETO/
+EX: /HOME/FTUNOUTI/CODIGOS/NOVO_PROJETO/
 			
 1. DENTRO DA PASTA CRIADA DIGITAR O COMANDO : 
 			git init
@@ -49,17 +63,6 @@ NA SUA PÁGINA DO GITHUB, VÁ EM SETTINGS E em SSH and GPG keys
 clique em New SSH key
 cole o código o código gerado e nomeie-o com o nome de sua preferência
 
+-
 
-#RESUMO DOS CÓDIGOS
-
-	*git init
-	*git add
-	*git commit -m "---algum comentário"
-	*git remote add origin git@github.com:seuusuario/seurepositorio)
-	*git push -u origin main
-	
-	
-	
-	*git status            ///verifica o status dos arquivos git
-	*git branch -M main    ///nomeia como main o branch principal
 	
