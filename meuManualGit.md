@@ -50,13 +50,13 @@ clique em New SSH key
 cole o código o código gerado e nomeie-o com o nome de sua preferência
 
 
-RESUMO DOS CÓDIGOS
+#RESUMO DOS CÓDIGOS
 
 	*git init
 	*git add
 	*git commit -m "---algum comentário"
 	*git remote add origin git@github.com:seuusuario/seurepositorio)
-	*push -u origin main
+	*git push -u origin main
 	
 	
 	
