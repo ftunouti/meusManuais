@@ -22,14 +22,17 @@ Este manual é um compilado de comandos inspirado no vídeo de Filipe Deschamps 
  * criar a dependência do Next.Js, React  e React.DOM com o comando:
     > npm install next react react-dom
  *  Rodar o framework localmente e criar uma página estática 
-    > primeiramente, modificar o arquivo *package.json*  criando um atalho para o React.DOM, acrescentando a linha (dev: "next dev") na linha *scripts; ver imagem vercel1.png
+    > primeiramente, modificar o arquivo *package.json*  criando um atalho para o React.DOM, acrescentando a linha (dev: "next dev") na linha *scripts*: vercel1.png
  * agora, toda vez que queremos subir o servidor do Next.Js localmente para desenvolver basta rodar o comando:
     > npm run dev , onde dev é o nome do script que inserimos em package.json
  * inicialmente haverá uma mensagem de erro, por isso, será necessário realizar o seguinte:
     > criar uma pasta *pages* no projeto, e dentro dela criar um arquivo *index.js* , pode ser também um arquivo *index.ts*, caso queira trabalhar com typescript
  * dentro do arquivo index criar uma função Home() conforme imagem : vercel2.png
- * acrescentar no arquivo também a linha , para que o framework possa entender qual o componente/função representa a nossa página:
-    > export default Home , este é o novo padrão de módulos do JS que exporta por padrão o componente que queremos que seja renderizado como página -- ver imagem verce3.png
+ * acrescentar no arquivo também a linha *export default Home* , para que o framework possa entender qual o componente/função representa a nossa página. Este é o novo padrão de módulos do JS que exporta por padrão o componente que queremos que seja renderizado como página.
+   > Veja a seguir:
+            <div align="center"> ![](/imagens/vercel3.png) </div>
+
+---
  * salve tudo e rode o comando:
     > npm run dev
  * servidor pronto para ser acessado na porta 3000:
