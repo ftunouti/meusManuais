@@ -69,6 +69,11 @@ NA SUA PÁGINA DO GITHUB, VÁ EM SETTINGS E em SSH and GPG keys
 clique em New SSH key
 cole o código o código gerado e nomeie-o com o nome de sua preferência
 
+---
+### Fork e Pull Request
+1. Fork é um recurso que clona o projeto de outro repositório diretamente do GitHub. Após a clonagem para o seu repositório, você poderá fazer quaisquer alterações no código sem interferir no código original.
+2. Após realizar as alterações no código, opcionalmente, você poderá sugerir as alterações ao autor original fazendo um PullRequest do projeto.
+3. O autor original, será notificado da modificação realizada e poderá decidir se fará um Merge no projeto incluindo então as alterações. 
 
 
 	
