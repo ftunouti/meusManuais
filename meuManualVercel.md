@@ -16,12 +16,12 @@ Este manual é um compilado de comandos inspirado no vídeo de Filipe Deschamps 
  * após criado o repositório copie o link dele e clone na sua máquina local com git clone...
  * abrir a pasta e utilizar o comando *code .* para abrir o VsCode
  * abrir um novo Terminal no VsCode
- * a partir deste momento você precisa ter na máquina o Node.Js no mínimo na versão 10.3 que é a menor versão compatícel com o Next 10
+ * a partir deste momento você precisa ter na máquina o Node.Js no mínimo na versão 10.3 que é a menor versão compatível com o Next 10
  * iniciar o projeto criando um arquivo package.json com o comando:
     > npm init -y , a opção *y* serve para aceitar todas as opções padrão 
  * criar a dependência do Next.Js, React  e React.DOM com o comando:
     > npm install next react react-dom
- *  Rodar o framework localmente e cria uma página estática 
+ *  Rodar o framework localmente e criar uma página estática 
     > primeiramente, modificar o arquivo *package.json*  criando um atalho para o React.DOM, acrescentando a linha (dev: "next dev") na linha *scripts; ver imagem vercel1.png
  * agora, toda vez que queremos subir o servidor do Next.Js localmente para desenvolver basta rodar o comando:
     > npm run dev , onde dev é o nome do script que inserimos em package.json
@@ -32,6 +32,35 @@ Este manual é um compilado de comandos inspirado no vídeo de Filipe Deschamps 
     > export default Home , este é o novo padrão de módulos do JS que exporta por padrão o componente que queremos que seja renderizado como página -- ver imagem verce3.png
  * salve tudo e rode o comando:
     > npm run dev
+ * servidor pronto para ser acessado na porta 3000:
+    > http://localhost:3000
+ * modificando o arquivo para mais alguns testes:
+
+
+            import {useState} from 'react';
+
+            function Home() {
+                return {
+                    <div> <h3>Home</h3> <Contador /> </div>
+                }
+            }
+
+            function Contador() {
+                const [contador,setContador] = useState(1);
+                function adicionarContador(){
+                    setContador(contador + 1);
+                }
+                return {
+                    <div>
+                        <div>{contador}</div>
+                        <button onClick={adicionarContador}>Adicionar</button>
+                    </div>
+                }
+            }
+
+            export default Home
+        '
+
 
 
 
