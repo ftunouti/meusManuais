@@ -38,7 +38,7 @@ RESUMO DOS CÓDIGOS
 	* Este comando irá colocar todos os arquivos adicionados no 'STAGE', aguardando serem comitados.
 ---
 
-## Após todos os arquivos serem colocados em 'STAGE' estes já podem ser salvos com versionados com commit:
+### Após todos os arquivos serem colocados em 'STAGE' estes já podem ser salvos com versionados com commit:
 1. PARA ISTO DIGITE O COMANDO:
     >git commit -m " ....algum comentario"
 ---
