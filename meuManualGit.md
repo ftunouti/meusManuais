@@ -4,65 +4,71 @@ by Fernando Tunouti
 ---
 
 RESUMO DOS CÓDIGOS
+---
 
-* git init  ///inicia o versionamento de uma pasta específica
-* git add ///adiciona um arquivo em 'Stage'
-* git commit -m "---algum comentário" ///Salva o arquivo ficando pronto para envio para o GITHUB
-* git remote add origin git@github.com:seuusuario/seurepositorio) ///faz a conexação do repositório local para o repositório do GITHUB
-* git push -u origin main ///envia arquivos commitados para o gitHUB no branch main
-	
+* inicia o versionamento de uma pasta específica
+    >git init
+* adiciona um arquivo em 'Stage'
+    >git add
+* Salva o arquivo ficando pronto para envio para o GITHUB
+	> git commit -m "---algum comentário"
+* faz a conexação do repositório local para o repositório do GITHUB
+	>git remote add origin git@github.com:seuusuario/seurepositorio
+* envia arquivos commitados para o gitHUB no branch main
+	>git push -u origin main 
+* verifica o status dos arquivos git
+	>git status           
+* nomeia como main o branch principal
+	>git branch -M main
 
-	
-* git status            ///verifica o status dos arquivos git
-* git branch -M main    ///nomeia como main o branch principal
+---
 
+### Para iniciar o versionamento de um projeto com o GIT siga a os passoas a seguir:
 
-Para iniciar o versionamento de um projeto com o GIT siga a os passoas a seguir:
-
-
-1. CRIAR A PASTA DO PROJETO 
-EX: /HOME/FTUNOUTI/CODIGOS/NOVO_PROJETO/
+1. inciar criando a pasta local do projeto 
+	> EX: /HOME/FTUNOUTI/CODIGOS/NOVO_PROJETO/
 			
-1. DENTRO DA PASTA CRIADA DIGITAR O COMANDO : 
-			git init
+1. Dentro da pasta criada digitar o comando: 
+	> git init
 			
-1. ESTE COMANDO IRÁ GERAR OS ARQUIVOS INCIAIS DO GIT PARA O VERSIONAMENTO DO PROJETO
+	* após o comando o git deverá gerar uma pasta .git para controle do versionamento
 1. APÓS A CRIAÇÃO DE DIVERSOS ARQUIVOS DO PROJETO NESTA PASTA DIGITE : 
-			git add .
+	> git add .
 			
-1. ESTE COMANDO IRÁ COLOCAR TODOS OS ARQUIVOS NO 'STAGE', AGUARDANDO O COMMIT.
-1. APÓS TODOS OS ARQUIVOS FOREM COLOCADOS EM 'STAGE' ESTES ARQUIVOS JÁ PODEM SER SALVOS E VERSIONADOS
+	* Este comando irá colocar todos os arquivos adicionados no 'STAGE', aguardando serem comitados.
+---
+
+## Após todos os arquivos serem colocados em 'STAGE' estes já podem ser salvos com versionados com commit:
 1. PARA ISTO DIGITE O COMANDO:
-		 	 git commit -m " ....algum comentario"
-		 	 
-1. APÓS OS ARQUIVOS SEREM SALVO (COMMIT), PODEMOS ENVIAR PARA O REPOSITÓRIO GITHUB
+    >git commit -m " ....algum comentario"
+---
+
+### Após os arquivos serem salvos (COMMIT), podemos então enviar para o repositório no GITHUB
 
 
-PARA ENVIAR ARQUIVO GITHUB:
-1. FACA LOGIN NO SITE GITHUB 
-1. CRIE O REPOSITÓRIO ONDE SERÃO ARMAZENADOS OS ARQUIVOS
-1. APÓS CRIADO O REPOSITÓRIO LOCALIZE O COMANDO CORRESPONDENTE SSH, (ex. git remote ass origin git@github.com:seuusuario/seurepositorio)
+1. PARA ENVIAR ARQUIVO GITHUB:
+	1. FACA LOGIN NO SITE GITHUB 
+	1. CRIE O REPOSITÓRIO ONDE SERÃO ARMAZENADOS OS ARQUIVOS
+	1. APÓS CRIADO O REPOSITÓRIO LOCALIZE O COMANDO CORRESPONDENTE SSH, (ex. git remote ass origin git@github.com:seuusuario/seurepositorio)
 			
-1. RETORNE À PASTA LOCAL DO SEU PROJETO /HOME/FTUNOUTI/CODIGOS/NOVO_PROJETO/
-1. UTILIZE O COMANDO COPIADO ANTERIORMENTE : 
+	1. RETORNE À PASTA LOCAL DO SEU PROJETO /HOME/FTUNOUTI/CODIGOS/NOVO_PROJETO/
+	1. UTILIZE O COMANDO COPIADO ANTERIORMENTE : 
 			git remote add origin git@github.com:seuusuario/seurepositorio
 			
-1. UTILIZE O COMANDO : 
+	1. UTILIZE O COMANDO : 
 			push -u origin main
+----
 
-
-PARA GERAR CÓDIGO SSH:
-
+### Para gerar chave SSH:
 
 1. DIGITE O COMANDO:
  $ ssh-keygen -t ed25519 -C "ftunouti@edu.unifil.br"
- 
  
 1. copie a chave gerada
 NA SUA PÁGINA DO GITHUB, VÁ EM SETTINGS E em SSH and GPG keys
 clique em New SSH key
 cole o código o código gerado e nomeie-o com o nome de sua preferência
 
--
+
 
 	
