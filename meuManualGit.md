@@ -12,7 +12,7 @@ RESUMO DOS CÓDIGOS
     >git add
 * Salva o arquivo ficando pronto para envio para o GITHUB
 	> git commit -m "---algum comentário"
-* faz a conexação do repositório local para o repositório do GITHUB
+* faz a conexão do repositório local para o repositório do GITHUB
 	>git remote add origin git@github.com:seuusuario/seurepositorio
 * envia arquivos commitados para o gitHUB no branch main
 	>git push -u origin main 
