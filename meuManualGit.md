@@ -51,7 +51,7 @@ RESUMO DOS CÓDIGOS
 	1. CRIE O REPOSITÓRIO ONDE SERÃO ARMAZENADOS OS ARQUIVOS
 	1. APÓS CRIADO O REPOSITÓRIO LOCALIZE O COMANDO CORRESPONDENTE SSH, (ex. git remote ass origin git@github.com:seuusuario/seurepositorio)
 			
-	1. RETORNE À PASTA LOCAL DO SEU PROJETO /HOME/FTUNOUTI/CODIGOS/NOVO_PROJETO/
+	1. RETORNE À PASTA LOCAL DO SEU PROJETO /HOME/CODIGOS/NOVO_PROJETO/
 	1. UTILIZE O COMANDO COPIADO ANTERIORMENTE : 
 			git remote add origin git@github.com:seuusuario/seurepositorio
 			
@@ -62,7 +62,7 @@ RESUMO DOS CÓDIGOS
 ### Para gerar chave SSH:
 
 1. DIGITE O COMANDO:
- $ ssh-keygen -t ed25519 -C "ftunouti@edu.unifil.br"
+ $ ssh-keygen -t ed25519 -C "seu_email@host.com"
  
 1. copie a chave gerada
 NA SUA PÁGINA DO GITHUB, VÁ EM SETTINGS E em SSH and GPG keys
