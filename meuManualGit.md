@@ -75,5 +75,18 @@ cole o código o código gerado e nomeie-o com o nome de sua preferência
 2. Após realizar as alterações no código, opcionalmente, você poderá sugerir as alterações ao autor original fazendo um PullRequest do projeto.
 3. O autor original, será notificado da modificação realizada e poderá decidir se fará um Merge no projeto incluindo então as alterações. 
 
+### Como configurar o git para funcionar com um servidor proxy.
+Para fazer o git usar um servidor proxy, utilize o seguinte comando:
 
+
+		*Ativar
+			Para fazer o git usar um servidor proxy, utilize o seguinte comando:
+
+		> git config --global http.proxy http://YOUR_PROXY_USERNAME:YOUR_PROXY_PASSWORD@YOUR.PROXY.SERVER:8080
+
+			YOUR_PROXY_USERNAME => como é comum o uso de um email para o USERNAME, é necessário utilizar no lugar do @ do email, o seguinte código pwd%40123.
+
+			*Desativar
+			git config --global --unset http.proxy
+			
 	
