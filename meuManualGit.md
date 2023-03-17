@@ -53,8 +53,7 @@ RESUMO DOS CÓDIGOS
 			
 	1. RETORNE À PASTA LOCAL DO SEU PROJETO /HOME/CODIGOS/NOVO_PROJETO/
 	1. UTILIZE O COMANDO COPIADO ANTERIORMENTE : 
-			git remote add origin git@github.com:seuusuario/seurepositorio
-			
+					
 	1. UTILIZE O COMANDO : 
 			push -u origin main
 ----
@@ -88,5 +87,22 @@ Para fazer o git usar um servidor proxy, utilize o seguinte comando:
 
 			*Desativar
 			git config --global --unset http.proxy
+
+
+### Fazendo push em https (SENHA TOKEN)
+
+Para realizar o comando push no git em https, além de configurar proxy, precisa criar no site do GitHub a senha Token, pois desde 2021 o gitHub não mais trabalha com senha normal.
+
+* Para criar a senha vá no site do GitHub;
+* Clique no usuário e em settings;
+* Clique em  Developers Settings;
+* Clique em Personal Access Tokens;
+* Escolha entre Fine-grained tokens e Tokens (classic);
+* Escolha em generate new Token;
+* Informe a senha do GitHub e gere o token;
+
+A partir deste momento toda vez que der um push será pedido o nome do usuário e a senha (token)
+
+
 			
 	
