@@ -44,6 +44,8 @@
     > Clique em "Create pull request" , para requisitar as mudanças
     > O dono do repositório, irá fazer as análises necessárias e se tiver tudo aprovado deverá fazer o "merge" no projeto.
 
+Obrigado
+
 
 
 
