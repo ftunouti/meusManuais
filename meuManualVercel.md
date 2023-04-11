@@ -10,9 +10,9 @@ Este manual é um compilado de comandos inspirado no vídeo de Filipe Deschamps 
 
 
 ---
-1. Utilizando o Framework NEXT.JS -  criado pela Vercel
- * configurando um ambiente de desenvolvimento, de forma que se possa realisar Deploy tanto de Testes como de Produção;
- * primeiro criar repositório no gitHub , marcar a opção Add.gitgnore para *template:Node*, clique em *Create Repository*
+### 1. Utilizando o Framework NEXT.JS -  criado pela Vercel
+   1. 1. configurando um ambiente de desenvolvimento, de forma que se possa realisar Deploy tanto de Testes como de Produção;
+      * primeiro criar repositório no gitHub , marcar a opção Add.gitgnore para *template:Node*, clique em *Create Repository*
  * após criado o repositório copie o link dele e clone na sua máquina local com git clone...
  * abrir a pasta e utilizar o comando *code .* para abrir o VsCode
  * abrir um novo Terminal no VsCode
